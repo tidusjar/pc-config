@@ -1,0 +1,45 @@
+properties:
+  resources:
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: vsPackage
+      directives:
+        description: Install Visual Studio 2022 Enterprise
+      settings:
+        id: Microsoft.VisualStudio.2022.Enterprise
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: Microsoft.DotNet.SDK.6
+      directives:
+        description: Install Microsoft.DotNet.SDK.6
+      settings:
+        id: Microsoft.DotNet.SDK.6
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: Oracle.JavaRuntimeEnvironment
+      directives:
+        description: Install Java 8
+      settings:
+        id: Oracle.JavaRuntimeEnvironment
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: MuhammedKalkan.OpenLens
+      directives:
+        description: Install MuhammedKalkan.OpenLens
+      settings:
+        id: MuhammedKalkan.OpenLens
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: LINQPad.LINQPad.8
+      directives:
+        description: Install LINQPad.LINQPad.8
+      settings:
+        id: LINQPad.LINQPad.8
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: PowerToys
+      directives:
+        description: Install PowerToys
+      settings:
+        id: Microsoft.PowerToys
+        source: winget
+  configurationVersion: 0.2.0

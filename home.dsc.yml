@@ -1,0 +1,25 @@
+properties:
+  resources:
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      id: vsPackage
+      directives:
+        description: Install Visual Studio 2022 Community
+        allowPrerelease: true
+      settings:
+        id: Microsoft.VisualStudio.2022.Community
+        source: winget
+    - resource:  Microsoft.WinGet.DSC/WinGetPackage
+      id: Valve.Steam
+      directives:
+        description: Install Valve.Steam
+      settings:
+       id: Valve.Steam
+       source: winget
+    - resource:  Microsoft.WinGet.DSC/WinGetPackage
+      id: Guru3D.Afterburner.Beta
+      directives:
+        description: Install Guru3D.Afterburner.Beta
+      settings:
+       id: Guru3D.Afterburner.Beta
+       source: winget
+  configurationVersion: 0.2.0

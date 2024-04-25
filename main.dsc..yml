@@ -1,0 +1,136 @@
+properties:
+  resources:
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Yarn
+        allowPrerelease: true
+      settings:
+        id: Yarn.Yarn
+        source: winget
+    - resource: Microsoft.WinGet.DSC/WinGetPackage
+      directives:
+        description: Install Node.js
+        allowPrerelease: true
+      settings:
+        id: OpenJS.NodeJS
+        source: winget
+    - resource:  Microsoft.WinGet.DSC/WinGetPackage
+      id: Docker.DockerDesktop
+      directives:
+        description: Install DockerDesktop
+      settings:
+       id: Docker.DockerDesktop
+       source: winget
+    - resource:  Microsoft.WinGet.DSC/WinGetPackage
+      id: Brave.Brave
+      directives:
+        description: Install Brave
+      settings:
+       id: Brave.Brave
+       source: winget
+    - resource:  Microsoft.WinGet.DSC/WinGetPackage
+      id: Discord.Discord
+      directives:
+        description: Install Discord.Discord
+      settings:
+       id: Discord.Discord
+       source: winget
+    - resource:  Microsoft.WinGet.DSC/WinGetPackage
+      id: Notion.Notion
+      directives:
+        description: Install Notion.Notion
+      settings:
+       id: Notion.Notion
+       source: winget
+    - resource:  Microsoft.WinGet.DSC/WinGetPackage
+      id: 7zip.7zip
+      directives:
+        description: Install 7zip.7zip
+      settings:
+       id: 7zip.7zip
+       source: winget
+    - resource:  Microsoft.WinGet.DSC/WinGetPackage
+      id: ShareX.ShareX
+      directives:
+        description: Install ShareX.ShareX
+      settings:
+       id: ShareX.ShareX
+       source: winget
+    - resource:  Microsoft.WinGet.DSC/WinGetPackage
+      id: Spotify.Spotify
+      directives:
+        description: Install Spotify.Spotify
+      settings:
+       id: Spotify.Spotify
+       source: winget
+    - resource:  Microsoft.WinGet.DSC/WinGetPackage
+      id: Microsoft.WindowsTerminal
+      directives:
+        description: Install Microsoft.WindowsTerminal
+      settings:
+       id: Microsoft.WindowsTerminal
+       source: winget
+    - resource:  Microsoft.WinGet.DSC/WinGetPackage
+      id: AgileBits.1Password
+      directives:
+        description: Install AgileBits.1Password
+      settings:
+       id: AgileBits.1Password
+       source: winget
+    - resource:  Microsoft.WinGet.DSC/WinGetPackage
+      id: SteelSeries.GG
+      directives:
+        description: Install SteelSeries.GG
+      settings:
+       id: SteelSeries.GG
+       source: winget
+    - resource:  Microsoft.WinGet.DSC/WinGetPackage
+      id: Logitech.GHUB
+      directives:
+        description: Install Logitech.GHUB
+      settings:
+       id: Logitech.GHUB
+       source: winget
+    - resource:  Microsoft.WinGet.DSC/WinGetPackage
+      id: elgato.streamdeck
+      directives:
+        description: Install elgato.streamdeck
+      settings:
+       id: elgato.streamdeck
+       source: winget
+    - resource:  Microsoft.WinGet.DSC/WinGetPackage
+      id: Git.Git
+      directives:
+        description: Install Git.Git
+      settings:
+       id: Git.Git
+       source: winget
+    - resource:  Microsoft.WinGet.DSC/WinGetPackage
+      id: Microsoft.DotNet.SDK.8
+      directives:
+        description: Install Microsoft.DotNet.SDK.8
+      settings:
+       id: Microsoft.DotNet.SDK.8
+       source: winget
+    - resource:  Microsoft.WinGet.DSC/WinGetPackage
+      id: Microsoft.DotNet.SDK.7
+      directives:
+        description: Install Microsoft.DotNet.SDK.7
+      settings:
+       id: Microsoft.DotNet.SDK.7
+       source: winget
+    - resource:  Microsoft.WinGet.DSC/WinGetPackage
+      id: CoreyButler.NVMforWindows
+      directives:
+        description: Install CoreyButler.NVMforWindows
+      settings:
+       id: CoreyButler.NVMforWindows
+       source: winget
+    - resource:  Microsoft.WinGet.DSC/WinGetPackage
+      id: JanDeDobbeleer.OhMyPosh
+      directives:
+        description: Install JanDeDobbeleer.OhMyPosh
+      settings:
+       id: JanDeDobbeleer.OhMyPosh
+       source: winget
+  configurationVersion: 0.2.0

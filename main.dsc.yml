@@ -29,6 +29,13 @@ properties:
        id: Brave.Brave
        source: winget
     - resource:  Microsoft.WinGet.DSC/WinGetPackage
+      id: Microsoft.VisualStudioCode
+      directives:
+        description: Install Microsoft.VisualStudioCode
+      settings:
+       id: Microsoft.VisualStudioCode
+       source: winget
+    - resource:  Microsoft.WinGet.DSC/WinGetPackage
       id: Discord.Discord
       directives:
         description: Install Discord.Discord
@@ -83,13 +90,6 @@ properties:
         description: Install SteelSeries.GG
       settings:
        id: SteelSeries.GG
-       source: winget
-    - resource:  Microsoft.WinGet.DSC/WinGetPackage
-      id: Logitech.GHUB
-      directives:
-        description: Install Logitech.GHUB
-      settings:
-       id: Logitech.GHUB
        source: winget
     - resource:  Microsoft.WinGet.DSC/WinGetPackage
       id: elgato.streamdeck

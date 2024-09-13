@@ -22,4 +22,11 @@ properties:
       settings:
        id: Guru3D.Afterburner.Beta
        source: winget
+    - resource:  Microsoft.WinGet.DSC/WinGetPackage
+      id: Discord.Discord
+      directives:
+        description: Install Discord.Discord      
+      settings:
+       id: Discord.Discord
+       source: winget
   configurationVersion: 0.2.0

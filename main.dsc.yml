@@ -43,13 +43,6 @@ properties:
        id: Microsoft.VisualStudioCode
        source: winget
     - resource:  Microsoft.WinGet.DSC/WinGetPackage
-      id: Discord.Discord
-      directives:
-        description: Install Discord.Discord
-      settings:
-       id: Discord.Discord
-       source: winget
-    - resource:  Microsoft.WinGet.DSC/WinGetPackage
       id: Notion.Notion
       directives:
         description: Install Notion.Notion
@@ -69,13 +62,6 @@ properties:
         description: Install ShareX.ShareX
       settings:
        id: ShareX.ShareX
-       source: winget
-    - resource:  Microsoft.WinGet.DSC/WinGetPackage
-      id: Spotify.Spotify
-      directives:
-        description: Install Spotify.Spotify
-      settings:
-       id: Spotify.Spotify
        source: winget
     - resource:  Microsoft.WinGet.DSC/WinGetPackage
       id: Microsoft.WindowsTerminal

@@ -3,9 +3,9 @@ properties:
     - resource: Microsoft.WinGet.DSC/WinGetPackage
       id: vsPackage
       directives:
-        description: Install Visual Studio 2022 Enterprise
+        description: Install Visual Studio 2022 Professional
       settings:
-        id: Microsoft.VisualStudio.2022.Enterprise
+        id: Microsoft.VisualStudio.2022.Professional
         source: winget
     - resource: Microsoft.WinGet.DSC/WinGetPackage
       id: Microsoft.DotNet.SDK.6
